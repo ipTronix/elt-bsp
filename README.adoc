@@ -13,8 +13,8 @@ Download the BSP source:
 
 [source,console]
 $: PATH=${PATH}:~/bin
-$: mkdir fsl-community-bsp
-$: cd fsl-community-bsp
+$: mkdir elt-bsp
+$: cd elt-bsp
 $: repo init -u https://github.com/ipTronix/elt-bsp
 $: repo sync
 
