@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <default sync-j="4" revision="master"/>
+
+  <remote fetch="git://git.yoctoproject.org" name="yocto"/>
+  <remote fetch="git://github.com/xilinx" name="xilinx"/>
+  <remote fetch="git://git.openembedded.org" name="oe"/>
+  <remote fetch="git://github.com/ipTronix" name="iptronix"/>
+
+  <project remote="yocto" revision="fido" name="poky" path="sources/poky"/>
+
+  <project remote="oe" revision="fido" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="xilinx" revision="fido" name="meta-xilinx" path="sources/meta-xilinx"/>
+
+  <project remote="iptronix" revision="fido" name="meta-elt" path="sources/meta-elt"/>
+
+</manifest>
