@@ -14,5 +14,8 @@
   <project remote="xilinx" revision="fido" name="meta-xilinx" path="sources/meta-xilinx"/>
 
   <project remote="iptronix" revision="fido" name="meta-elt" path="sources/meta-elt"/>
+  <project remote="iptronix" revision="master" name="elt-bsp-base" path="sources/base">
+	  <copyfile dest="setup-environment" src="setup-environment"/>
+  </project>
 
 </manifest>
